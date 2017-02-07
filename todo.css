@@ -1,0 +1,16 @@
+li{
+    list-style-type: none;
+}
+li div {
+    cursor: pointer;
+    display: inline-block;
+}
+li div:first-of-type {
+    margin-right: 5px;
+}
+li div:last-of-type {
+    margin-left: 5px;
+}
+li.crossline {
+    text-decoration:line-through;
+}
